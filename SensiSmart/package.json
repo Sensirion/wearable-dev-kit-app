@@ -1,0 +1,63 @@
+{
+  "version": "1.0.0",
+  "author": "Sensirion AG",
+  "private": true,
+  "dependencies": {},
+  "keywords": [
+    "pebble-app"
+  ],
+  "pebble": {
+    "sdkVersion": "3",
+    "resources": {
+      "media": [
+        {
+          "type": "png",
+          "name": "IMAGE_LOGO_BLACK",
+          "file": "logo.png"
+        },
+        {
+          "type": "png",
+          "name": "IMAGE_LOGO_WHITE",
+          "file": "logo_white.png"
+        },
+        {
+          "type": "png",
+          "name": "IMAGE_CONTEXT_ACTIVITY",
+          "file": "activity_context.png"
+        },
+        {
+          "type": "png",
+          "name": "IMAGE_CONTEXT_LEISURE",
+          "file": "leisure_context.png"
+        },
+        {
+          "type": "png",
+          "name": "IMAGE_CONTEXT_COMFORT",
+          "file": "comfort_context.png"
+        },
+        {
+          "type": "png",
+          "name": "IMAGE_CAUTION",
+          "file": "warning.png"
+        }
+      ]
+    },
+    "projectType": "native",
+    "uuid": "96458f88-b8e7-4340-a1c7-edf12208f385",
+    "messageKeys": {
+      "dummy": 0
+    },
+    "enableMultiJS": false,
+    "displayName": "SensiSmart",
+    "watchapp": {
+      "onlyShownOnCommunication": false,
+      "hiddenApp": false,
+      "watchface": false
+    },
+    "targetPlatforms": [
+      "basalt"
+    ],
+    "capabilities": []
+  },
+  "name": "SensiSmart"
+}
